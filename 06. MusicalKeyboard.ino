@@ -1,0 +1,25 @@
+//int botones[6];
+//int botones [0] = 2;
+int notas[] ={262,294,330,349};
+void setup() {
+  Serial.begin(9600);
+}
+void loop() {
+    int ValorTeclaPulsada = analogRead(A0);
+    Serial.println(ValorTeclaPulsada);
+    if (ValorTeclaPulsada == 1023){
+        tone(8, notas[0]);
+    }
+    else if (ValorTeclaPulsada >=990 && ValorTeclaPulsada <=1010){
+        tone(8, notas[1]);
+    }
+    else if (ValorTeclaPulsada >=505 && ValorTeclaPulsada <=515){
+        tone(8, notas[2]);
+    }
+    else if (ValorTeclaPulsada >=5 && ValorTeclaPulsada <=10){
+        tone(8, notas[3]);
+    }
+    else{
+        noTone(8);
+    }
+}

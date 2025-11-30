@@ -1,29 +1,33 @@
-# ARDUINO
 
-Este repositorio contiene una colección de proyectos prácticos realizados con Arduino. Cada archivo `.ino` corresponde a un proyecto independiente, pensado para aprender y experimentar con diferentes sensores, actuadores y técnicas de programación.
+# Proyectos Arduino
 
-## Descripción de los proyectos
+Bienvenido a este repositorio de proyectos prácticos con Arduino. Aquí encontrarás ejemplos variados para aprender electrónica y programación, cada uno con su propio archivo y explicación.
 
-1. **01. SpaceAircraft.ino**: Simulación de nave espacial con luces y sonidos.
-2. **02. LoveMeter.ino**: Medidor de amor usando sensores de temperatura o presión.
-3. **03. MultiColorLamp.ino**: Lámpara multicolor controlada por potenciómetro o sensor.
-4. **04. MoodIndicator.ino**: Indicador de estado de ánimo con LEDs de colores.
-5. **05. LightControlTheremin.ino**: Theremin controlado por luz, produce sonidos según la intensidad lumínica.
-6. **06. MusicalKeyboard.ino**: Teclado musical con botones y buzzer.
-7. **07. DigitalHourglass.ino**: Reloj de arena digital con LEDs y temporizador.
-8. **08. MotorizedGrinder.ino**: Control de un motor para simular un molinillo.
-9. **09. Zoetrope.ino**: Animación visual con LEDs y motor, tipo zootropo.
-10. **10. CristalBall.ino**: Bola de cristal interactiva, responde con luces y sonidos.
-11. **11. DoorBolt.ino**: Cerradura electrónica controlada por golpes o sensores.
-12. **12. TouchLamp.ino**: Lámpara táctil que se enciende al detectar contacto.
-13. **13.logo.ino**: Proyecto de animación o visualización de un logo con LEDs.
-14. **14. hackaeo.ino**: Proyecto especial, posiblemente para hackatón o reto.
+## Tabla de contenidos
+
+| Archivo                   | Función principal                                                                 |
+|---------------------------|---------------------------------------------------------------------------------|
+| 01. SpaceAircraft.ino     | Simula una nave espacial con efectos de luces y sonidos.                         |
+| 02. LoveMeter.ino         | Medidor de “amor” usando sensores de temperatura o presión.                      |
+| 03. MultiColorLamp.ino    | Lámpara RGB controlada por potenciómetro o sensor de luz.                        |
+| 04. MoodIndicator.ino     | Indicador de estado de ánimo con LEDs de colores.                                |
+| 05. LightControlTheremin.ino | Theremin controlado por luz, genera sonidos según la intensidad lumínica.    |
+| 06. MusicalKeyboard.ino   | Teclado musical con botones y buzzer.                                            |
+| 07. DigitalHourglass.ino  | Reloj de arena digital con LEDs y temporizador.                                  |
+| 08. MotorizedGrinder.ino  | Control de motor para simular un molinillo eléctrico.                            |
+| 09. Zoetrope.ino          | Animación visual tipo zootropo con LEDs y motor.                                 |
+| 10. CristalBall.ino       | Bola de cristal interactiva, responde con luces y sonidos.                       |
+| 11. DoorBolt.ino          | Cerradura electrónica controlada por golpes o sensores.                          |
+| 12. TouchLamp.ino         | Lámpara táctil que se enciende al detectar contacto.                             |
+| 13. LogoArduino.pde       | Visualización animada del logo de Arduino usando Processing y comunicación serie.|
+| 13. ModifyArduinoLogo.ino | Modifica el logo de Arduino con animaciones LED.                                 |
+| 14. HackButtons.ino       | Simula pulsaciones automáticas usando optoacoplador.                             |
 
 ## Cómo usar los proyectos
 
-1. Abre el archivo `.ino` que te interese en el IDE de Arduino.
-2. Consulta el código y los comentarios para entender el funcionamiento.
-3. Conecta los componentes según las indicaciones del código.
+1. Abre el archivo `.ino` (o `.pde` para Processing) en el IDE correspondiente.
+2. Lee los comentarios del código para entender el montaje y funcionamiento.
+3. Conecta los componentes según las indicaciones.
 4. Sube el programa a tu placa Arduino y experimenta.
 
 ## Requisitos
@@ -31,6 +35,15 @@ Este repositorio contiene una colección de proyectos prácticos realizados con 
 - Placa Arduino (Uno, Nano, Mega, etc.)
 - Componentes electrónicos básicos (LEDs, resistencias, sensores, motores, etc.)
 - IDE de Arduino instalado
+- (Opcional) Processing para proyectos visuales
+
+## Contribuciones
+
+¿Tienes una mejora o nuevo proyecto? ¡Haz un fork y envía tu pull request!
+
+## Licencia
+
+Este repositorio es de uso libre para fines educativos y personales.
 
 ---
-Si tienes dudas sobre algún proyecto, revisa el código fuente o consulta en la comunidad.
+Si tienes dudas sobre algún proyecto, revisa el código fuente o abre una issue en GitHub.
